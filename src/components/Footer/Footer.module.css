@@ -1,0 +1,11 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.listaRedes{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}

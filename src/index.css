@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, #3c199e, #03beec);
+    background-size: 120% 120%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+    
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
