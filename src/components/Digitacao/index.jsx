@@ -1,4 +1,6 @@
 import {useEffect, useState} from "react";
+import styles from "./Digitacao.module.css";
+
 
 export function Digitacao(props){
     const[text, setText] = useState("");
@@ -15,7 +17,7 @@ export function Digitacao(props){
     }, []);
 
     return(
-        <div>
+        <div className={styles.texto}>
         {text}
         </div>
     )

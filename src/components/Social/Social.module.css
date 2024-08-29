@@ -1,0 +1,5 @@
+.listaRedes{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}

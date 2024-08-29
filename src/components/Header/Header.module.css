@@ -2,17 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 15px;
+    padding: 2rem 1rem;
 }
 
 .cabecalho .logo{
-    width: 65px;
-    height: 65px;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
     border: 2px solid #fff;
     text-decoration: underline;
     text-align: center;
-    line-height: 55px;
+    line-height: 3rem;
     font-family:Arial, Helvetica, sans-serif;
     transition: 0.2s;
 }
@@ -22,14 +22,14 @@
 }
 
 .cabecalho .menu li a{
-    font-size: 20px;
+    font-size: 1.5rem;
     text-transform: capitalize;
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     transition: 0.2s;
 }
 .cabecalho .menu li a:hover{
     background-color: #9443d8;
     color: #fff;
-    border-radius: 50px;
+    border-radius: 3rem;
     transition: 0.2s;
 }

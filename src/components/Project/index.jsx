@@ -91,9 +91,7 @@ function Project() {
             </a>
             </div>
         </div>
-        <div className={styles.button}>
-            <button>Mostrar mais</button>
-        </div>
+        
         </section>
     );
 }
