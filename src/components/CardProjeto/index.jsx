@@ -8,7 +8,7 @@ function CardProjeto(){
             href="https://github.com/SergioDevSousa/meuportfolio"
             target="_blank"
             >
-            <img src="./imagens/projeto alura.png" alt="Projeto Portifólio" />
+            <img src="./imagens/portifolio alura.png" alt="Projeto Portifólio" />
             <h3>Projeto 1</h3>
 
             <div className={styles.informacoesProjeto}>

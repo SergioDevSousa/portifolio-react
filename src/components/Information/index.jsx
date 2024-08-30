@@ -5,7 +5,6 @@ import styles from './Information.module.css';
 
 function Information(){
     return(
-        <>
             <section className={styles.home}>
                 <div className={styles.informacoes}>
                     <Digitacao text = "Olá! Sou Sérgio Sousa." />
@@ -14,7 +13,6 @@ function Information(){
                 </div>
                     <Perfil />
             </section>
-        </>
     )
 }
 export default Information;

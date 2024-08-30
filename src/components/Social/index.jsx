@@ -51,7 +51,7 @@ function Social(){
                 </a>
             </li>
             </ul>
-        </div>
+    </div>
     );
 }
 export default Social;

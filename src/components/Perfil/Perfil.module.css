@@ -1,6 +1,6 @@
 .fotoPerfil img{
     background: linear-gradient(to right, #8a35c8, #85c018, #d200ee);
     background-size: 180% 180%; animation: gradient-animation 5s ease infinite;
-    max-width: 28rem;
+    max-width: 25rem;
     border-radius: 50%;
 }

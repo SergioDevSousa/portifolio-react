@@ -1,5 +1,19 @@
 .listaRedes{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 19rem;
     padding-bottom: 3rem;
+}
+@media (max-width: 48rem) {
+    .listaRedes{
+        padding-bottom: 2rem;
+        
+    }
+}
+
+@media (max-width: 20rem) {
+    .listaRedes{
+        padding-bottom: 1rem;
+        
+    }
 }
