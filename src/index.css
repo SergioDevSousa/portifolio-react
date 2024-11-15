@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0 auto;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-07.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
     max-width: 1120px;
-    background: linear-gradient(150deg, #3c199e, #03beec);
-    background-size: 120% 120%;
-    
+    margin: auto;
+
 }
 *{
     margin: 0;
@@ -28,4 +32,5 @@ ul{
 }
 img{
     max-width: 100%;
+    height: auto;
 }

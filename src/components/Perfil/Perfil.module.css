@@ -1,6 +1,23 @@
-.fotoPerfil img{
-    background: linear-gradient(to right, #8a35c8, #85c018, #d200ee);
-    background-size: 180% 180%; animation: gradient-animation 5s ease infinite;
-    max-width: 22rem;
-    border-radius: 50%;
+.fotoPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta para centralizar verticalmente na tela inteira */
+}
+
+.fotoPerfil img {
+    max-width: 100%; /* Limita a largura da imagem */
+    height: auto;    /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: solid 10px rgb(7, 63, 136);
+    align-content: flex-start;
+}
+@media (max-width: 550px){
+    .fotoPerfil img{
+        max-width: 230px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
 }

@@ -1,4 +1,6 @@
 .cabecalho{
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,8 +19,8 @@
     transition: 0.2s;
 }
 .cabecalho a:hover .logo{
-    color: #9443d8;
-    border: 2px solid #9443d8;
+    color: #096194;
+    border: 2px solid #096194;
 }
 
 .cabecalho .menu li a{
@@ -28,7 +30,7 @@
     transition: 0.2s;
 }
 .cabecalho .menu li a:hover{
-    background-color: #9443d8;
+    background-color: #096194;
     color: #fff;
     border-radius: 3rem;
     transition: 0.2s;

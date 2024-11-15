@@ -1,3 +1,8 @@
 .texto{
-    font-size: 2rem;
+    font-size: 32px;
+}
+@media (max-width: 470px) {
+    .texto{
+        font-size: 25px;
+    }
 }
