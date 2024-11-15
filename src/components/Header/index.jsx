@@ -10,7 +10,7 @@ function Header(){
                 <nav className={styles.menu}>
                     <ul>
                         <li>
-                            <a href="#projetos">Repo GitHub e Projetos</a>
+                            <a href="#projetos">Repo GitHub</a>
                         </li>
                     </ul>
                 </nav>

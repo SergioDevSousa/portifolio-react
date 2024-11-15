@@ -12,12 +12,25 @@
     border: solid 10px rgb(7, 63, 136);
     align-content: flex-start;
 }
+
+@media (max-width: 1200px) {
+    .fotoPerfil img{
+        max-width: 330px;
+        height: auto;
+    }
+    
+}
+@media (max-width: 750px) {
+    .fotoPerfil img{
+        max-width: 280px;
+        height: auto;
+    }
+
+}
 @media (max-width: 550px){
     .fotoPerfil img{
         max-width: 230px;
         height: auto;
-        margin: 0;
-        padding: 0;
     }
     
 }
