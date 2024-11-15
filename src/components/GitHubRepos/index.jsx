@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import './GitHubRepos.css'; // Coloque o CSS em um arquivo separado para organizar melhor
+import React, { useEffect, useState } from "react";
+import styles from './GitHubRepos.module.css'; // Coloque o CSS em um arquivo separado para organizar melhor
 
 const GitHubRepos = ({ username }) => {
     const [repos, setRepos] = useState([]); // Estado para armazenar os repositórios
+    const [visibleCount, setVisibleCount] = useState(10);
     const [loading, setLoading] = useState(true); // Estado de carregamento
     const [error, setError] = useState(null); // Estado de erro
 
@@ -25,13 +26,19 @@ const GitHubRepos = ({ username }) => {
         fetchRepos();
     }, [username]);
 
+    const handleShowMore = ()=>{
+        setVisibleCount((prevCount)=> prevCount + 10);
+    }
+
     if (loading) return <p>Carregando...</p>;
     if (error) return <p>Erro: {error}</p>;
 
+
     return (
-                <div className="repos-container" id='projetos'>
-                    {repos.map((repo) => (
-                        <div className="repo-card" key={repo.id}>
+            <div>
+                <div className={styles.repos_container} id='projetos'>
+                    {repos.slice(0, visibleCount).map((repo) => (
+                        <div className={styles.repo_card} key={repo.id}>
                             <h3>{repo.name}</h3>
                             <p>{repo.description || 'Sem descrição'}</p>
                             <p>Linguagem: {repo.language || 'Não especificado'}</p>
@@ -41,6 +48,12 @@ const GitHubRepos = ({ username }) => {
                         </div>
                     ))}
                 </div>
+                {visibleCount <repos.length && (
+                    <button className={styles.load_more_btn} onClick={handleShowMore}>
+                        Ver mais
+                    </button>
+                )}
+            </div>
             );
 };
 

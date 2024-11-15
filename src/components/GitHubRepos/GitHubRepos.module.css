@@ -1,4 +1,4 @@
-.repos-container {
+.repos_container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -8,7 +8,7 @@
     
 }
 
-.repo-card {
+.repo_card {
     width: 300px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -19,23 +19,40 @@
     margin-top: 30px;
 }
 
-.repo-card:hover {
+.repo_card:hover {
     transform: scale(1.05);
 }
 
-.repo-card h3 {
+.repo_card h3 {
     margin: 0 0 10px;
     font-size: 1.2em;
     color: #333;
 }
 
-.repo-card p {
+.repo_card p {
     font-size: 0.9em;
     color: #666;
 }
 
-.repo-card a {
+.repo_card a {
     text-decoration: none;
     color: #064385;
     font-weight: bold;
 }
+.load_more_btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.load_more_btn:hover {
+    background-color: #0056b3;
+}
+
