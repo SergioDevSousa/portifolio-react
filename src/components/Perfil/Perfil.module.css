@@ -2,21 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta para centralizar verticalmente na tela inteira */
+    max-width: 100%;
+    height: auto;
 }
 
 .fotoPerfil img {
-    max-width: 100%; /* Limita a largura da imagem */
-    height: auto;    /* Mantém a proporção da imagem */
     border-radius: 50%; /* Torna a imagem circular */
     border: solid 10px rgb(7, 63, 136);
     align-content: flex-start;
+    
 }
 
 @media (max-width: 1200px) {
     .fotoPerfil img{
         max-width: 330px;
         height: auto;
+    
     }
     
 }
@@ -24,13 +25,15 @@
     .fotoPerfil img{
         max-width: 280px;
         height: auto;
+    
     }
 
 }
-@media (max-width: 550px){
+@media (max-width: 576px){
     .fotoPerfil img{
-        max-width: 230px;
+        max-width: 180px;
         height: auto;
+        
     }
     
 }
